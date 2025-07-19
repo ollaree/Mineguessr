@@ -1,0 +1,42 @@
+{
+  "name": "minecraftle",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate": "prisma generate",
+    "migrate": "prisma migrate deploy",
+    "postinstall": "pnpm generate"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.19",
+    "@prisma/client": "^5.22.0",
+    "@tanstack/react-query": "^5.66.11",
+    "@trpc/client": "11.0.0-rc.819",
+    "@trpc/next": "11.0.0-rc.819",
+    "@trpc/react-query": "11.0.0-rc.819",
+    "@trpc/server": "11.0.0-rc.819",
+    "next": "^15.2.0",
+    "nuqs": "^1.20.0",
+    "prisma": "^5.22.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "seedrandom": "^3.0.5",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.22",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@types/seedrandom": "^3.0.8",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.2"
+  }
+}
